@@ -1,0 +1,97 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+*.whl
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# dotenv / secrets
+.env
+.env.*.local
+secrets.json
+
+# IDEs / OS
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+Thumbs.db
+desktop.ini
+
+# Python packaging
+pip-wheel-metadata/
+htmlcov/
+.coverage
+coverage.xml
+nosetests.xml
+pytest_cache/
+.pytest_cache/
+
+# Logs
+*.log
+
+# Uploads / media
+uploads/
+media/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Node (if any front-end)
+node_modules/
+npm-debug.log
+# Ignore Python cache and bytecode files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore environment files
+.env
+
+# Ignore Heroku Procfile logs or temp files
+*.log
+*.tmp
+
+# Ignore VSCode settings (optional)
+.vscode/
+
+# Ignore virtual environment folders (if any)
+venv/
+env/
+.venv/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore testing artifacts
+api_testing_files/
+
+# Ignore PDFs or personal files
+*.pdf
+
+# Ignore coverage reports (if you're using pytest or similar)
+htmlcov/
+.coverage
+.coverage.*
+
+# Ignore compiled files
+*.so
+
+# Ignore Jupyter Notebook checkpoints (if any)
+.ipynb_checkpoints/
